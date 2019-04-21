@@ -12,7 +12,6 @@ public class Main {
 
 
     public static void main(String[] args) {
-        //提交吧
         String format = DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss");
         System.out.println(format);
         List<String> list = new ArrayList<>(Arrays.asList("123","456","789"));
